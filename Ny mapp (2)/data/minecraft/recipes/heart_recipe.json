@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["#D#", "DED", "#D#"],
+  "key": {
+    "#": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "E": {
+      "item": "minecraft:elytra"
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book",
+    "count":1
+  }
+}

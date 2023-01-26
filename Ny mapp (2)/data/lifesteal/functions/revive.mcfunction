@@ -1,0 +1,4 @@
+execute as @a[gamemode=spectator,limit=1] at @s if entity @e[distance=..3,type=item,nbt={Item:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:6190001}}}] run scoreboard players set @s hearts 2
+execute as @a[gamemode=spectator,limit=1] at @s if entity @e[distance=..3,type=item,nbt={Item:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:6190001}}}] run scoreboard players set @s dead 0
+execute as @a[gamemode=spectator,limit=1] at @s if entity @e[distance=..3,type=item,nbt={Item:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:6190001}}}] run gamemode survival @s
+execute as @a[gamemode=survival,limit=1] at @s if entity @e[distance=..3,type=item,nbt={Item:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:6190001}}}] run kill @e[type=item,nbt={Item:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:6190001}}},limit=1]
